@@ -29,12 +29,12 @@ void puts2(char *str)
  */
 int _strlen(char *s)
 {
-        int a = 0;
+	int a = 0;
 
-        while (*s != '\0')
-        {
-                s++;
-                a++;
-        }
-        return (a);
+	while (*s != '\0')
+	{
+		s++;
+		a++;
+	}
+	return (a);
 }
