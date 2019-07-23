@@ -1,27 +1,67 @@
-# Preprocessing Project
+# Holberton Low Level Programming
 
 ## Description
 
-This directory contains all four task files
+This is a repository containing all C projects given by Holberton School
 
-### File 0
+### Project 0x00-hello_world
 
-Has a header file that defines a macro named SIZE as an abbreviation for the
-token 1024
+Contains tasks introducing us to C programming
 
-### File 1
+### Project 0x01-variables_if_else_while
 
-Has a header file that defines a macro names PI as an abbreviation for the token
-3.14159265359
+Contains tasks which introduced us to different types of statements
 
-### File 2
+### Project 0x02-functions_nested_loops
 
-Has a program that prints the name of the file it was compiled from
+Contains tasks which introduce us to the beauty of nested loops
 
-### File 3
+### Project 0x04-more_functions_nested_loops
 
-Has a function-like macro ABS(x) that computes the absolute value of a number x
+Contains tasks which gave us more practice with nested loops
 
-### File 4
+### Project 0x05-pointers_arrays_strings
 
-Has a funtion-like macro SUM(x, y) that computes the sum of the numbers x and y
+Contains tasks which introduced us to the horror of pointers, as well as arrays
+and strings
+
+### Project 0x06-pointers_arrays_strings
+
+Contains tasks which gave us more practice with pointers arrays and strings
+
+### Project 0x07-pointers_arrays_strings
+
+Contains tasks which gave us even more practice with pointers arrays and strings
+
+### Project 0x08-recursion
+
+Contains tasks which introduced us to recursion
+
+### Project 0x09-static_libraries
+
+Contains tasks which introduced us to static libraries
+
+### Project 0x0A-argc_argv
+
+Contains tasks which introduced us to argc and argv
+
+### Project 0x0B-malloc_free
+
+Contains tasks which introduced us to malloc and free
+
+### Project 0x0C-more_malloc_free
+
+Contains tasks which gave us practice with malloc and free
+
+### Project 0x0D-preprocessor
+
+Contains tasks which gave us more knowledge of the preprocessing step of
+compiling
+
+### Project 0x0E-structures_typedef
+
+Contains tasks which introduced us to structures and typedef
+
+### Betty
+
+Contains code to check files for betty format
