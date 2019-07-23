@@ -1,17 +1,36 @@
-File 0 contains a C program that creates an array of chars, and initializes it
-with a specific char
+# Malloc And Free
 
-File 1 contains a C program that returns a pointer to a newly allocated space in
-memory, which contains a copy of the string given as a parameter
+## Description
 
-File 2 contains a C program that concatonates two strings
+This is a directory that contains tasks given to me by Holberton School
 
-File 3 contains a C program that returns a pointer to a 2 dimensional array of
-integers
+### Task 0-create_array.c
 
-File 4 contains a C program that frees a 2 dimensional grad previously created
-by your alloc_grid function
+Contains a function that creates an array of chars, and initializes it with a
+specific char
 
-File 5 contains a C program that concatonates all the arguments of your program
+### Task 1-strdup.c
 
-File 100 contains a C program that splits a string into words
+Contains a function that returns a pointer to a newly allocated space in memory,
+which contains a copy of the string given as a parameter
+
+### Task 2-str_concat.c
+
+Contains a function that concatenates two strings
+
+### Task 3-alloc_grid.c
+
+Contains a function that returns a pointer to a 2 dimensional array of integers
+
+### Task 4-free_grid.c
+
+Contains a function that frees a 2 dimensional grid previously created by your
+alloc_grid function
+
+### Task 5-argstostr.c
+
+Contains a function that concatenates all the arguments of your program
+
+### Task 100-strtow.c
+
+Contains a funtion that splits a string into words
