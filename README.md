@@ -16,6 +16,10 @@ Contains tasks which introduced us to different types of statements
 
 Contains tasks which introduce us to the beauty of nested loops
 
+### Project 0x03-debugging
+
+Contains tasks which introduce us to the nature of debugging
+
 ### Project 0x04-more_functions_nested_loops
 
 Contains tasks which gave us more practice with nested loops
