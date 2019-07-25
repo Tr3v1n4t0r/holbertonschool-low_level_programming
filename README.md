@@ -62,6 +62,10 @@ compiling
 
 Contains tasks which introduced us to structures and typedef
 
+### Project 0x0F-function_pointers
+
+Contains tasks which introduced us to pointers to functions
+
 ### Betty
 
 Contains code to check files for betty format
