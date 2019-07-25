@@ -1,41 +1,81 @@
-file 0 contains a C program that prints Holberton, followed by a new line
+# Functions Nested Loops
 
-file 1 contains a C program that prints the alphabet, in lowercase, followed by
+## Description
+
+This a directory containing tasks given to me by Holberton School
+
+### File 0-holberton.c
+
+Contains a program that prints Holberton, followed by a new line
+
+### File 1-alphabet.c
+
+Contains a program that prints the alphabet, in lowercase, followed by a new
+line
+
+### File 2-print_aplhabet_x10.c
+
+Contains a program that prints 10 times the alphabet, in lowercase, followed by
 a new line
 
-file 2 contains a C program that prints 10 times the alphabet, in lowercase,
-followed by a new line
+### File 3-islower.c
 
-file 3 contains a C program that checks for lowercase character
+Contains a program that checks for lowercase character
 
-file 4 contains a C program that checks for alphabetic character
+### File 4-isalpha.c
 
-file 5 contains a C program that prints the sign of a number
+Contains a program that checks for alphabetic character
 
-file 6 contains a C program that computes the absolute value of an integer
+### File 5-sign.c
 
-file 7 contains a C program that prints the last digit of a number
+Contains a program that prints the sign of a number
 
-file 8 contains a C program that prints every minute of the day of Jack Bauer,
-starting from 00:00 to 23:59
+### File 6-abs.c
 
-file 9 contains a C program that prints the 9 times table, starting with 0
+Contains a program that computes the absolute value of an integer
 
-file 10 contains a C program that adds two integers and returns the result
+### File 7-print_last_digit.c
 
-file 11 contains a C program that prints all natural numbers from n to 98,
-followed by a new line
+Contains a C program that prints the last digit of a number
 
-file 100 contains a C program that prints the n times table, starting with 0
+### File 8-24_hours.c
 
-file 101 contains a C program that computes and prints the sum of all the
-multiples of 3 or 5 below 1024 (excluded), followed by a new line
+Contains a C program that prints every minute of the day of Jack Bauer, starting
+from 00:00 to 23:59
 
-file 102 contains a C program that prints the first 50 Fibonacci numbers,
+### File 9-times_table.c
+
+Contains a program that prints the 9 times table, starting with 0
+
+### File 10-add.c
+
+Contains a program that adds two integers and returns the result
+
+### File 11-print_to_98.c
+
+Contains a program that prints all natural numbers from n to 98, followed by a
+new line
+
+### File 100-times_table.c
+
+Contains a program that prints the n times table, starting with 0
+
+### File 101-natural.c
+
+Contains a C program that computes and prints the sum of all the multiples of 3
+or 5 below 1024 (excluded), followed by a new line
+
+### File 102-fibonacci.c
+
+Contains a program that prints the first 50 Fibonacci numbers, starting with 1
+and 2, followed by a new line
+
+### File 103-fibonacci.c
+
+Contains a program that prints the sum of even numbered terms in the Fibbonacci
+sequence
+
+### File 104-fibonacci.c
+
+Contains a program that finds and prints the first 98 Fibonacci numbers,
 starting with 1 and 2, followed by a new line
-
-file 103 contains a C program that prints the sum of even numbered terms in the
-Fibbonacci sequence
-
-file 104 contains a C program that finds and prints the first 98 Fibonacci
-numbers, starting with 1 and 2, followed by a new line

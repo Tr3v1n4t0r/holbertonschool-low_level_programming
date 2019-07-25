@@ -1,40 +1,68 @@
-file 0 contains C programming that will assign a random number to the variable
-each time it is executed
+# Variables If Else While
 
-file 1 contains C programming that will assign a random number to the variable n
-each time it is executed
+## Description
 
-file 2 contains C programming that prints the alphabet in lowercase, followed by
-a new line
+This a directory containing tasks given to me by Holberton School
 
-file 3 contains C programming that prints the alphabet in lowercase, followed by
-a new line
+### File 0-positive_or_negative.c
 
-file 4 contains C programming that prints the alphabet in lowercase, and then in
-uppercase, followed by a new line
+Contains a program that will assign a random number to the variable each time it
+is executed
 
-file 5 contains C programming that prints all single digit numbers of base 10
-starting from 0, followed by a new line
+### File 1-last_digit.c
 
-file 6 contains C programming that prints all single digit numbers of base 10
-starting from 0, followed by a new line
+Contains a program that will assign a random number to the variable n each time
+it is executed
 
-file 7 contains C programming that prints the lowercase alphabet in reverse,
+### File 2-print_alphabet.c
+
+Contains a program that prints the alphabet in lowercase, followed by a new line
+
+### File 3-print_alphabets.c
+
+Contains a program that prints the alphabet in lowercase, followed by a new line
+
+### File 4-print_alphabt.c
+
+Contains a program that prints the alphabet in lowercase, and then in uppercase,
 followed by a new line
 
-file 8 contains C programming that prints all the numbers of base 16 in
-lowercase, followed by a new line
+### File 5-print_numbers.c
 
-file 9 contains C programming that prints all possible combinations of
-single-digit numbers
+Contains a program that prints all single digit numbers of base 10 starting from
+0, followed by a new line
 
-file 10 contains C programming that prints the numbers from 00 to 99
+### File 6-print_numberz.c
 
-file 100 contains C programming that prints all possible different combinations
-of two digits
+Contains a program that prints all single digit numbers of base 10 starting from
+0, followed by a new line
 
-file 101 contains C programming that prints all possible different combinations
-of three digits
+### File 7-print_tebahpla.c
 
-file 102 contains C programming that prints all possible combinations of two
-two-digit numbers
+Contains a program that prints the lowercase alphabet in reverse, followed by a
+new line
+
+### File 8-print_base16.c
+
+Contains a program that prints all the numbers of base 16 in lowercase, followed
+by a new line
+
+### File 9-print_comb.c
+
+Contains a program that prints all possible combinations of single-digit numbers
+
+### File 10-print_comb2.c
+
+Contains a program that prints the numbers from 00 to 99
+
+### File 100-comb3.c
+
+Contains a program that prints all possible different combinations of 2 digits
+
+### File 101-comb4.c
+
+Contains a program that prints all possible different combinations of 3 digits
+
+### File 102-comb5.c
+
+Contains a program that prints all possible combinations of 2 2-digit numbers
