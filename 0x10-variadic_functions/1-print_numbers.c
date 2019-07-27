@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- *print_numbeers - prints numbers
+ *print_numbers - prints numbers
  *
  *@separator: constant char to be printed between numbers
  *@n: number of integers passed
