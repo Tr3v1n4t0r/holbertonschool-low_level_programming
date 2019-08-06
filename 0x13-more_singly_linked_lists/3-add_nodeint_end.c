@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- *add_node_end - adds a new node at the end of a list
+ *add_nodeint_end - adds a new node at the end of a list
  *
  *@head: start of list
- *@str: string
+ *@n: n
  *
  *Return: The address of the new element, or NULL if it failed
  */
