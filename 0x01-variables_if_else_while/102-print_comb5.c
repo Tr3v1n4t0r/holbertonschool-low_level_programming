@@ -16,16 +16,16 @@ int main(void)
 		{
 			if ((a == 0 && b != 0) || (b > a))
 			{
-				if (a != 0 || b != 0)
-				{
-					putchar(',');
-					putchar(' ');
-				}
 				putchar(a / 10 + '0');
 				putchar(a % 10 + '0');
 				putchar(' ');
 				putchar(b / 10 + '0');
 				putchar(b % 10 + '0');
+				if (a < 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
