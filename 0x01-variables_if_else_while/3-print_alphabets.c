@@ -12,8 +12,7 @@ int main(void)
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
 	for (ch = 'A' ; ch <= 'Z' ; ch++)
-	File Edit Options Buffers Tools C Help
-	putchar(ch);
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }
