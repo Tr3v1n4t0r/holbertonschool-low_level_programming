@@ -7,15 +7,18 @@
  */
 int main(void)
 {
-	long long int a = 612852475143;
+	long int a = 612852475143;
 	int factor;
 
 	for (factor = 2; factor <= a; factor++)
 	{
-		if (a % factor == 0)
+		if (factor % 2 != 0 || factor == 2)
 		{
-			a /= factor;
-			factor--;
+			if (a % factor == 0)
+			{
+				a /= factor;
+				factor--;
+			}
 		}
 	}
 	printf("%d\n", factor);
