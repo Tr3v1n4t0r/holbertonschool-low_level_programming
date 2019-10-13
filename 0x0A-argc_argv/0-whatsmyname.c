@@ -2,6 +2,8 @@
 
 /**
  *main - prints its name
+ *
+ *Return: 0
  */
 int main(int argc, char *argv[])
 {
