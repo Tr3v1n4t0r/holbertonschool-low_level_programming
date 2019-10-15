@@ -21,7 +21,7 @@ char *str_concat(char *s1, char *s2)
 	for (; *s2; i++, s2++)
 		temp[i] = *s2;
 	temp[i] = '\0';
-	
+
 	return (temp);
 }
 
@@ -38,6 +38,6 @@ int _strlen(char *s)
 
 	for (i = 0; s[i]; i++)
 		i++;
-	
+
 	return (i);
 }
