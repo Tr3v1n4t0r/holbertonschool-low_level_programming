@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 
 /**
  *str_concat - concatonates two strings
@@ -10,5 +11,33 @@
  */
 char *str_concat(char *s1, char *s2)
 {
+	int i;
+	char *temp;
 
+	temp = malloc(sizeof(char) * (_strlen(s1) + _strlen(s2) + 1));
+
+	for (i = 0; *s1; i++, s1++)
+		temp[i] = *s1;
+	for (; *s2; i++, s2++)
+		temp[i] = *s2;
+	temp[i] = '\0';
+	
+	return (temp);
+}
+
+/**
+ *_strlen - gets the length of a string
+ *
+ *@s: string
+ *
+ *Return: the length of a string
+ */
+int _strlen(char *s)
+{
+	int i;
+
+	for (i = 0; s[i]; i++)
+		i++;
+	
+	return (i);
 }
