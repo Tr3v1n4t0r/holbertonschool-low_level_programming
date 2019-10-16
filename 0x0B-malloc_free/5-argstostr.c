@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 		temp[k++] = '\n';
 	}
 	temp[k] = '\0';
-	
+
 	return (temp);
 }
 
