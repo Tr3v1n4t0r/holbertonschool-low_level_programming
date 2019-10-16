@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 
 /**
  *free_grid - frees memory for a 2 dimesional array
