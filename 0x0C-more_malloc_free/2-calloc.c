@@ -2,6 +2,25 @@
 #include <stdlib.h>
 
 /**
+ *_memset - Fill n bytes of memory with a constant byte
+ *
+ *@s: memory
+ *@b: constant byte
+ *@n: number of bytes to fill
+ *
+ *Return: pointer to memory area s
+ */
+char *_memset(char *s, const char b, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		s[i] = b;
+
+	return (s);
+}
+
+/**
  *_calloc - allocates memory for an integer using malloc
  *
  *@nmemb: elements
@@ -20,5 +39,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (p == NULL)
 		return (NULL);
 
+	_memset(p, 0, nmemb * size);	
 	return (p);
 }
