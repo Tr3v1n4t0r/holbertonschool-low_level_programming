@@ -14,10 +14,10 @@ void print_all(const char * const format, ...)
 	while (format)
 	{
 		va_start(valist, format);
-		while(format[i])
+		while (format[i])
 		{
 			a = 1;
-			switch(format[i])
+			switch (format[i])
 			{
 			case 'c':
 				printf("%c", va_arg(valist, int));
